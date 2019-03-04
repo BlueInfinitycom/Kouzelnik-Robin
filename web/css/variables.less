@@ -1,0 +1,91 @@
+// fonts
+
+@font-face {
+    font-family: 'SansitaBold';
+    src: url('../fonts/Sansita/Sansita-Bold.eot');
+    src: url('../fonts/Sansita/Sansita-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sansita/Sansita-Bold.woff2') format('woff2'),
+        url('../fonts/Sansita/Sansita-Bold.ttf') format('truetype'),
+        url('../fonts/Sansita/Sansita-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SansitaItalic';
+    src: url('../fonts/Sansita/Sansita-Bold.eot');
+    src: url('../fonts/Sansita/Sansita-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sansita/Sansita-Bold.woff2') format('woff2'),
+        url('../fonts/Sansita/Sansita-Italic.ttf') format('truetype'),
+        url('../fonts/Sansita/Sansita-Bold.woff') format('woff');
+        font-style: italic;
+}
+
+@font-face {
+    font-family: 'TitiliumWebRegular';
+    src: url('../fonts/TitiliumWeb/TitilliumWeb-Regular.eot');
+    src: url('../fonts/TitiliumWeb/TitilliumWeb-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Regular.woff2') format('woff2'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Regular.ttf') format('truetype'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TitiliumWebBold';
+    src: url('../fonts/TitiliumWeb/TitilliumWeb-Bold.eot');
+    src: url('../fonts/TitiliumWeb/TitilliumWeb-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Bold.woff2') format('woff2'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Bold.ttf') format('truetype'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Bold.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TitiliumWebLight';
+
+    src: url('../fonts/TitiliumWeb/TitilliumWeb-Light.eot');
+    src: url('../fonts/TitiliumWeb/TitilliumWeb-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Light.woff2') format('woff2'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Light.ttf') format('truetype'),
+        url('../fonts/TitiliumWeb/TitilliumWeb-Light.woff') format('woff');
+    font-style: normal;
+}
+
+@mainBgColor:#120a21;
+
+//fonts
+@menu_fnt:SansitaBold;
+@menu_col:#ffffff;
+@menu_size:1.7rem;
+
+@title_fnt:SansitaBold;
+@title_col:#ffffff;
+@title_size:3.5vw;
+
+@subtitle_fnt:'SansitaItalic';
+@subtitle_col:#f0c100;
+@subtitle_size:1.7vw;
+
+@descr_fnt:'TitiliumWebRegular';
+@descr_col:#d7c4f9;
+@descr_size:1.5vw;
+
+@sectionTitle_fnt:SansitaBold;
+@sectionTitle_col:#1d1133;
+@sectionTitle_size:12vw;
+
+@galleryItem_fnt:SansitaBold;
+@galleryItem_col:#ffffff;
+@galleryItem_size:1.6vw;
+
+@btSize:3.3vw;
+
+
+
+// mixins
+.setFont(@fnt,@fnt-size,@fnt-col){
+    font-family:@fnt;
+    font-size: @fnt-size;
+    color: @fnt-col;
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'SansitaBold';
+  src: url('../fonts/Sansita/Sansita-Bold.eot');
+  src: url('../fonts/Sansita/Sansita-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Sansita/Sansita-Bold.woff2') format('woff2'), url('../fonts/Sansita/Sansita-Bold.ttf') format('truetype'), url('../fonts/Sansita/Sansita-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SansitaItalic';
+  src: url('../fonts/Sansita/Sansita-Bold.eot');
+  src: url('../fonts/Sansita/Sansita-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Sansita/Sansita-Bold.woff2') format('woff2'), url('../fonts/Sansita/Sansita-Italic.ttf') format('truetype'), url('../fonts/Sansita/Sansita-Bold.woff') format('woff');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TitiliumWebRegular';
+  src: url('../fonts/TitiliumWeb/TitilliumWeb-Regular.eot');
+  src: url('../fonts/TitiliumWeb/TitilliumWeb-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/TitiliumWeb/TitilliumWeb-Regular.woff2') format('woff2'), url('../fonts/TitiliumWeb/TitilliumWeb-Regular.ttf') format('truetype'), url('../fonts/TitiliumWeb/TitilliumWeb-Regular.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TitiliumWebBold';
+  src: url('../fonts/TitiliumWeb/TitilliumWeb-Bold.eot');
+  src: url('../fonts/TitiliumWeb/TitilliumWeb-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/TitiliumWeb/TitilliumWeb-Bold.woff2') format('woff2'), url('../fonts/TitiliumWeb/TitilliumWeb-Bold.ttf') format('truetype'), url('../fonts/TitiliumWeb/TitilliumWeb-Bold.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TitiliumWebLight';
+  src: url('../fonts/TitiliumWeb/TitilliumWeb-Light.eot');
+  src: url('../fonts/TitiliumWeb/TitilliumWeb-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/TitiliumWeb/TitilliumWeb-Light.woff2') format('woff2'), url('../fonts/TitiliumWeb/TitilliumWeb-Light.ttf') format('truetype'), url('../fonts/TitiliumWeb/TitilliumWeb-Light.woff') format('woff');
+  font-style: normal;
+}
